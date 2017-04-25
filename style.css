@@ -1,0 +1,152 @@
+body { 
+ background: url(Images/Backgrounds/chalkboard.jpg); /* https://www.toptal.com/designers/subtlepatterns/grey-washed-wall/ */
+ font-size: 24px;
+}
+
+@font-face {
+    font-family: KGTenThousandReasons;
+    src: url(Fonts/kgtenthousandreasons.ttf);
+}
+
+#menu-text {
+    font-family: KGTenThousandReasons;
+    font-size: 1.5em;
+    color: #FEFEFE;
+}
+
+.glyphicon-menu-hamburger {
+    font-size: 1.5em;
+    color: #FEFEFE;
+}
+
+.glyphicon-menu-hamburger:hover {
+    cursor: pointer;
+}
+
+/* The side navigation menu */
+.sidenav {
+    font-family: 'Marmelad', sans-serif;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background: url(Images/Backgrounds/lined_paper.png); /* https://www.toptal.com/designers/subtlepatterns/black-felt/ */
+    /*background-color: #111; /*Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px; /* Open up top of the nav for #brand-image */
+    -webkit-transition: 0.5s; /*Safari transition*/
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    display: inline-block;
+    float: right;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+#navbar-home {
+	font-size: 1em;
+}
+
+.glyphicon-home {
+    margin-right: 10px;
+    font-size: .8em;
+}
+
+/*
+#navbar-brand-image {
+    position: relative;
+    display: inline-block;
+    padding: 0 0 5px 0;
+    margin-top: 12px;
+    margin-left: 60px;
+}
+*/
+
+#navbar-top {
+    font-family: 'Cinzel Decorative';
+    color: #151515;
+    position: relative;
+    display: inline-block;
+    padding: 0 0 5px 0;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 0px 8px 8px 20px;
+    text-decoration: none;
+    font-size: .75em;
+    color: #151515;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, transition to bigger font size and change their color */
+.sidenav a:hover {
+    color: #151515;
+    text-decoration: underline;
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+#navbar-options {
+	padding-top: 10px;
+}
+
+/*Set social media icons*/
+#social-icons {
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+.sidenav-media-icons {
+    font-size: 1.10em;
+    transition: 1s;
+}
+
+.sidenav-media-icons:hover {
+    backface-visibility: 
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+#icon-fb { color: #3b5998; }
+#icon-google { color: #d34836; }
+#icon-instagram { color: #a47651; }
+#icon-twitter { color: #00aced; }
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*------------------- */
+
+#quoteDivMain {
+    position: relative;
+    font-family: KGTenThousandReasons;
+    font-size: 1.5em;
+    color: #FEFEFE;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    text-align: center;
+}
+
+#author {
+    float: right;
+}
